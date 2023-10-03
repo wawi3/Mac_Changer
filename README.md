@@ -26,11 +26,13 @@ To change your MAC address using this tool, follow these steps:
      cd mac-address-changer
      ```
 
-3. **Run the Script:**
-   - Run the Python script by executing the following command, replacing `<interface>` with the name of your network interface (e.g., "wlan0") and `<new_mac>` with the desired MAC address:
+3. **Run the Script with sudo:**
+   - Run the Python script with `sudo` privileges by executing the following command, replacing `<interface>` with the name of your network interface (e.g., "wlan0") and `<new_mac>` with the desired MAC address:
      ```
-     python3 macChanger.py -i <interface> -m <new_mac>
+     sudo python3 macChanger.py -i <interface> -m <new_mac>
      ```
+
+   **Note:** The script requires `sudo` privileges to modify network settings.
 
 4. **Verify the Change:**
    - After running the script, it will change the MAC address of your specified network interface.
