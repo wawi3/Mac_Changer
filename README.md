@@ -17,9 +17,8 @@ To change your MAC address using this tool, follow these steps:
    - Navigate to the directory where you want to store the project.
    - Run the following command to clone the repository:
      ```
-     git clone https://github.com/yourusername/mac-address-changer.git
+     git clone https://github.com/wawi3/mac-address-changer.git
      ```
-   Replace `yourusername` with your GitHub username.
 
 2. **Navigate to the Project Directory:**
    - Change your working directory to the newly created project folder:
